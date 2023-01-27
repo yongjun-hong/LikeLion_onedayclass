@@ -1,0 +1,144 @@
+/* 구글 폰트 적용 방법 
+    google fonts 검색 후 마음에 드는 폰트를 찾는다. 
+    그 후, html 코드는 head의 링크쪽 부분에 넣고 
+    css 폰트는 적용하고 싶은 글자의 중괄호 안에 넣는다. */
+* {
+  margin: 0;
+  padding: 0;
+  max-width: 100%;
+}
+body {
+  /* overflow: hidden; */
+  background: rgb(32, 32, 32);
+}
+
+/* 
+figure img {
+  display: block;
+  width: inherit;
+} */
+
+
+h1 {
+  font-size: 40px;
+  height: 100px;
+  color: #FB4264;
+  text-shadow: 0 0 3vw #F40A35;
+  animation: neon 1s ease infinite;
+  -moz-animation: neon 1s ease infinite;
+  -webkit-animation: neon 1s ease infinite;
+}
+/* @keyframes neon {
+  0%,
+  100% {
+    text-shadow: 0 0 1vw #FA1C16, 0 0 3vw #FA1C16, 0 0 10vw #FA1C16, 0 0 10vw #FA1C16, 0 0 .4vw #FED128, .5vw .5vw .1vw #806914;
+    color: #FED128;
+  }
+  50% {
+    text-shadow: 0 0 .5vw #800E0B, 0 0 1.5vw #800E0B, 0 0 5vw #800E0B, 0 0 5vw #800E0B, 0 0 .2vw #800E0B, .5vw .5vw .1vw #40340A;
+    color: #806914;
+  }
+} */
+h2 {
+  height: 50px;
+  color: rgb(216, 215, 215);
+  font-size: 25px;
+}
+#about_me {
+  color: darkorange;
+  position: absolute;
+  top: 44%;
+  left: 45%;
+  font-size: 27px;
+}
+
+#sns {
+  color: rgb(247, 246, 246);
+  font-size: 18px;
+  position: absolute;
+  top: 50%;
+  left: 45%;
+}
+#instagram {
+  font-size: 50px;
+  float: left;
+  /* color: pink; font awesome에 색 적용시키는 방법? */
+}
+#blog {
+  font-size: 50px;
+  float: left;
+}
+
+#hello {
+  position: absolute;
+  top: 20%;
+  left: 45%;
+  font-family: "Single Day", cursive;
+}
+#hello_h2 {
+  font-family: "Gamja Flower", cursive;
+  font-size: 38px;
+}
+
+#button{
+  width: 150px; height: 50px; border-radius: 60px; position: absolute; top: 100%; left: 30%;
+  border-color: gold;
+  font-family: "Gamja Flower", cursive;
+  font-size: 20px;
+  background-color: lightsalmon;
+}
+
+a:visited {
+  color: white;
+}
+#profile {
+  color: rgb(155, 201, 225);
+  font-size: 45px;
+  position: absolute;
+  top: 95%;
+  left: 15%;
+} 
+
+#profileContents {
+  /* font-family: 'Dongle', sans-serif; */
+  font-family: "Gamja Flower", cursive;
+  color: rgb(216, 215, 215);
+  font-size: 30px;
+  position: absolute;
+  top: 103%;
+  left: 16%;
+}
+
+#Taeyang {
+  font-family: "Gamja Flower", cursive;
+  color: rgb(216, 215, 215);
+  font-size: 30px;
+  /* font-style: ; 폰트 바꾸기*/
+  position: absolute;
+  top: 150%;
+  left: 15%;
+}
+
+#resolution {
+  color: rgb(196, 170, 138);
+  font-size: 45px;
+  position: absolute;
+  top: 217%;
+  left: 15%;
+}
+#year_2023{
+  position: absolute;
+  top: 224%;
+  left: 18%;
+  font-size: 25px;
+  color: whitesmoke;
+  font-family: "Gamja Flower", cursive;
+}
+#new_year {
+  font-family: "Gamja Flower", cursive;
+  color: rgb(216, 215, 215);
+  font-size: 30px;
+  position: absolute;
+  top: 230%;
+  left: 16.5%;
+}

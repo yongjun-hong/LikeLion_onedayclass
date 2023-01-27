@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>LikeLion_oneday_class</title>
+  <meta name="viewport" content="initial-scale=1.0,user-scalable=no,maximum-scale=1,width=device-width" />
+  <!-- 이미지 관련 -->
+  <style>
+    .container {
+      width: 500px;
+      height: 500px;
+      text-align: center;
+    }
+
+    #img {
+      width: 100%;
+      height: 100%;
+    }
+  </style>
+  <!-- css 및 google fonts, fontawesome -->
+  <link rel="stylesheet" href="./styles/style.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+    integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous" />
+
+  <!-- dongle -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Dongle&display=swap" rel="stylesheet">
+  <!-- single day -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Single+Day&display=swap" rel="stylesheet">
+  <!-- sans reief -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Gamja+Flower&display=swap" rel="stylesheet">
+  <!-- ganjaflower -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Gamja+Flower&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  </div>
+  <div id="hello">
+    <h1>&#129409; 여러분 환영해요~~! &#129409;</h1>
+    <h2 id="hello_h2"> 안녕하세요! 코딩을 좋아해서 멋쟁이 사자처럼에 들어온,</h2>
+    <h2 id="hello_h2">순천향대학교 의료IT공학과 3학년 홍용준입니다.</h2>
+  </div>
+  <div id="about_me">
+    <p><i class="far fa-laugh"></i> &nbsp; About Me &nbsp;<i class="far fa-laugh"></i></p>
+  </div>
+  <div id="sns">
+    <p style="color: white;">&#129409;멋사 11기 운영진</p>
+
+    <p id="instagram"><a href="https://www.instagram.com/yong_goose/" target="_blank"><i class="fab fa-instagram"
+          style="color: pink;"></i></a></p>
+    <!-- font awesome 적용한 인스타그램 글자 / font awesome에서 installed manually 들어간 뒤, html 링크 소스를 복사해서 head에 붙여 넣고 사용하고 싶은 글자는 제 위치에 넣으면 된다. -->
+    <p id="blog">&nbsp;<a href="https://solution-is-here.tistory.com/" target="_blank"><i class="far fa-envelope"
+          style="color: skyblue;"></i></a></p>
+  </div>
+
+
+  <!-- <div class="container">
+    <img id="img" src="like_lion.jpg" />
+    <button onclick="toggleImg()">toggle</button>
+  </div>
+  <script>
+    function toggleImg() {
+      document.getElementById("img").src = "my_selfie.jpg";
+    }
+  </script> -->
+
+
+
+  <div id="container" style="position: absolute; top: 15%; left: 10%;">
+      <img id="img" src="my_selfie.jpg" style="width:400px; height:450px; border-radius: 50px;" />
+      <button id="button" onclick="toggleImg()">버튼을 누르세요!</button>
+  </div>
+  <script>
+    var number = 0;
+  </script>
+  <!--profile-->
+  <div id="profile">
+    <p><strong>Profile</strong></p>
+  </div>
+  <div id="profileContents" style="line-height:50px;">
+    <ul>
+      <li><strong>생일: 2000.09.28</strong></li> <!-- <br> &emsp;&emsp; </p>-->
+      <!-- <p><strong>이름&#10068; 홍용준</strong> <br>&emsp;&emsp; 이름에 대한 설명</p> -->
+      <li><strong>성격:</strong> 도전하는 것을 좋아해요! 책임감이 강해 한번 맡은 일은 꼭! 해낸답니다.&emsp;&emsp;</li>
+      <li><strong>MBTI:</strong>저는 사람들과 어울리는 것을 매우 좋아하는 enfp입니다~!</li>
+    </ul>
+  </div>
+
+
+  <p style="color: darkorange; font-size: 45px; position: absolute; top: 140%; left: 15%;">
+    <strong>My_hobby</strong>
+  </p>
+
+  <div id="Taeyang" style="line-height:50px;">
+    <p>제 취미는 누워서 유튜브 보는거에요,,ㅎ<br>요즘 제가 푹 빠진 동영상이에요! 여러분도 꼭 한번 보시길 바래요</p>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/jfFHVcjLEz8?start=5"
+      title="YouTube video player" frameborder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+      allowfullscreen></iframe>
+  </div>
+
+
+  <div id="resolution">
+    <p><strong>New Year's Resolution </strong></p>
+  </div>
+  <p id="year_2023"><i class="far fa-star"></i>2023년 목표 및 하고 싶은일 적기<i class="far fa-star"></i>
+  <div id="new_year" style="line-height:50px;">
+    <ol>
+      <li>학점 4.5 받기</li>
+      <li>해외 여행 가기</li>
+      <li>멋쟁이 사자처럼 해커톤 완주하기</li>
+    </ol>
+    <!--줄을 바꾸고 싶다면 br태그를 사용하면 된다! -->
+    </p>
+    <br><br><br><br>
+  </div>
+  <script src="ex01.js"></script>
+
+</body>
+
+</html>
