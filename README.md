@@ -10,4 +10,3 @@
 google fonts에서 원하는 폰트를 가져와서 구현하였습니다.
 5. 각종 emoji
 -font awesome에서 복사하여 붙여넣었습니다.
-<img src="https://user-images.githubusercontent.com/104314593/215073106-7d03dc1b-622b-43fb-a82a-17f25a287423.png" width="500px" height="300px">
